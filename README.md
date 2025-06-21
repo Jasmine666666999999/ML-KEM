@@ -2,7 +2,7 @@
 
 其中：
 
-ml_kem.py实现了完整、标准化的 ML-KEM (Kyber) 库，覆盖 FIPS 203 规范的所有核心原语（哈希、PRF、CBD 采样、NTT、多项式运算等）及三种安全级别参数；
+ml_kem.py实现了完整、标准化的 ML-KEM (Kyber) 库，覆盖 FIPS 203 规范的所有核心原语（哈希、PRF、CBD 采样、NTT、多项式运算等）及三种安全级别参数。
 
 test.py提供了测试框架。解析 NIST KAT (JSON) 向量，依次调用被测实现的 KeyGen、Encap、Decap 接口并比对期望输出，统计通过/失败用例数量，为快速回归测试提供自动化验证环境。
 
